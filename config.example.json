@@ -1,0 +1,74 @@
+{
+  "development": {
+    "API_KEY" :"asd",
+    "API_SECRET":"asd",
+    "SECRET_WEBHOOK":"asd",
+    "PASSSWORD":"asd",
+    "SHOP_NAME":"asd",
+    "DB_USERNAME":"root",
+    "DB_PASSWORD":"1234",
+    "DB_PORT":"3318",
+    "DB_DB":"test",
+    "FB_CREDENTIALS": {
+      "type": "demo",
+      "project_id": "demo",
+      "private_key_id": "demo",
+      "private_key":"demo",
+      "client_email": "demo",
+      "client_id": "demo",
+      "auth_uri": "demo",
+      "token_uri": "demo",
+      "auth_provider_x509_cert_url": "demo",
+      "client_x509_cert_url": "demo"
+    },
+    "FB_DB": "https://demo.firebaseio.com"
+  },
+  "staging": {
+    "API_KEY" :"asd",
+    "API_SECRET":"asd",
+    "SECRET_WEBHOOK":"asd",
+    "PASSSWORD":"asd",
+    "SHOP_NAME":"asd",
+    "DB_USERNAME":"root",
+    "DB_PASSWORD":"1234",
+    "DB_PORT":"3318",
+    "DB_DB":"test",
+    "FB_CREDENTIALS": {
+      "type": "demo",
+      "project_id": "demo",
+      "private_key_id": "demo",
+      "private_key":"demo",
+      "client_email": "demo",
+      "client_id": "demo",
+      "auth_uri": "demo",
+      "token_uri": "demo",
+      "auth_provider_x509_cert_url": "demo",
+      "client_x509_cert_url": "demo"
+    },
+    "FB_DB": "https://demo.firebaseio.com"
+  },
+  "production": {
+    "API_KEY" :"asd",
+    "API_SECRET":"asd",
+    "SECRET_WEBHOOK":"asd",
+    "PASSSWORD":"asd",
+    "SHOP_NAME":"asd",
+    "DB_USERNAME":"root",
+    "DB_PASSWORD":"1234",
+    "DB_PORT":"3318",
+    "DB_DB":"test",
+    "FB_CREDENTIALS": {
+      "type": "demo",
+      "project_id": "demo",
+      "private_key_id": "demo",
+      "private_key":"demo",
+      "client_email": "demo",
+      "client_id": "demo",
+      "auth_uri": "demo",
+      "token_uri": "demo",
+      "auth_provider_x509_cert_url": "demo",
+      "client_x509_cert_url": "demo"
+    },
+    "FB_DB": "https://demo.firebaseio.com"
+  }
+}

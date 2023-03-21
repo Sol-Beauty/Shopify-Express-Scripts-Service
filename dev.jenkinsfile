@@ -1,0 +1,16 @@
+node {
+    tool name: '16.3.0', type: 'nodejs'
+    stage('Fetch') {
+        dir('/var/www/afiliados/dev') {
+            git branch: 'stage', credentialsId: 'github', url: 'git@github.com:Sol-Beauty/api-influencersApp.git'
+        }
+    }
+    stage('Node install') { // for display purposes
+        dir('/var/www/afiliados/dev') {
+            npm 'install'
+        }
+    }
+    stage('clean') { // for display purposes
+        cleanWs()
+    }
+}
